@@ -1,0 +1,11 @@
+from tkinter import *
+win = Tk()
+win.title("Python GUI App")
+lbl = Label(win, text = "Button not click")
+lbl.pack()
+lbl.configure(foreground = 'red')
+lbl.configure(text = 'Before Click')
+def click():action.configure(text = "Clicked", foreground="green")
+action = Button(win, text = "Click me",command = click)
+action.pack()
+win.mainloop()

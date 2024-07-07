@@ -1,0 +1,10 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry("300x300")
+orange = tk.Label(root, background="orange", width=30)
+white = tk.Label(root, background="white", width=30)
+green = tk.Label(root, background="green", width=30)
+orange.pack()
+white.pack()
+green.pack()
+root.mainloop()
